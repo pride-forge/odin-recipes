@@ -25,13 +25,15 @@
     padding: 0px;
 }
 
-.nav li {
+.nav li,
+.home {
     background-color: lightgreen;
     border: 1px solid gray;
     display: inline-block;
 }
 
-.nav a {
+.nav a,
+.home {
     color: black;
     display: block;
     font-weight: 800;
@@ -40,7 +42,16 @@
 }
 
 .nav a:hover,
-.nav li:hover {
+.nav li:hover,
+.home:hover {
     background-color: green;
     color: white;
+}
+
+.recipe-img {
+    height: auto;
+    width: 350px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid green;
 }
